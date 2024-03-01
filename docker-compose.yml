@@ -3,7 +3,7 @@ version: '3.7'
 services:
 
   wordpress:
-    build: .
+    image: wordpress:4.6.1-php5.6-apache
     restart: always
     ports:
       - 5000:80
